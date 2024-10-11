@@ -17,7 +17,7 @@ public class TabFragment2 extends Fragment {
 
         // Ví dụ: đổi màu một TextView thành đỏ để chỉ ra rằng đây là tab mặc định
         TextView textView = view.findViewById(R.id.textView);
-        textView.setText("Đây là Tab 2 (mặc định)");
+        textView.setText("Đây là Tab 2");
         textView.setTextColor(getResources().getColor(android.R.color.holo_red_dark)); // Đổi màu chữ thành đỏ
 
         return view;

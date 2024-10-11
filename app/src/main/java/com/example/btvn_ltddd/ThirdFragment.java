@@ -31,9 +31,9 @@ public class ThirdFragment extends Fragment {
         BottomNavigationView bottomNavigationView = view.findViewById(R.id.bottom_navigation);
 
         // Thêm các mục menu vào Bottom Navigation View
-        bottomNavigationView.getMenu().add(0, nav_home, 0, "Home");
-        bottomNavigationView.getMenu().add(0, nav_search, 1, "Search");
-        bottomNavigationView.getMenu().add(0, nav_profile, 2, "Profile");
+        bottomNavigationView.getMenu().add(0, nav_home, 0, "Thông tin");
+        bottomNavigationView.getMenu().add(0, nav_search, 1, "Kĩ năng");
+
 
         // Thiết lập sự kiện cho Bottom Navigation View
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {

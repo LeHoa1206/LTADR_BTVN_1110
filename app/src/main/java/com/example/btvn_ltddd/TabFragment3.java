@@ -15,7 +15,7 @@ public class TabFragment3 extends Fragment {
         View view = inflater.inflate(R.layout.fragment_tab1, container, false);
 
         TextView textView = view.findViewById(R.id.textView);
-        textView.setText("Đây là Tab 1 (mặc định)");
+        textView.setText("Đây là Tab 3");
         textView.setTextColor(getResources().getColor(android.R.color.holo_red_dark)); // Đổi màu chữ thành đỏ
 
         return view;
