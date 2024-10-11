@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên: Lê Hòa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvStudentClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp: 22T2"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvStudentAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kí túc xá 02 Thanh sơn"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvStudentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel broadens the mind"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:id="@+id/ivStudentPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lehoa" />
+</LinearLayout>
